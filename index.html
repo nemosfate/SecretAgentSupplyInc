@@ -9,19 +9,21 @@
   <body>
     <!--header and news-->
     <header>
-      <div class="intro-container">
+      <div class="intro-container page">
         <div class="intro">
           <img src="./resources/images/logo.png"/>
           <span id="logo">Secret Agent Supply Inc.</span>
           <!--^^^^no alt tag used to where text before company name will not confuse visitor in the case of a broken image.-->
         </div>
       </div>
-      <div class="news">
-        <p>NEW ARRIVAL</p>
-        <p>SPORT BIKES AND MOTORCYCLES</p>
+      <div class="page news">
+        <div class="newmoto">
+          <p id="newarr">NEW ARRIVAL</p>
+          <p id="moto">SPORT BIKES AND MOTORCYCLES</p>
+        </div>
       </div>
       <!--Menu-->
-      <div>
+      <div class="page">
         <nav>
           <span class="navs"><a href="eyewear" style="color: white">EYEWEAR</a></span>
           <span class="navs"><a href="apparel" style="color: white">APPAREL</a></span>
@@ -33,29 +35,20 @@
       </div>
     </header>
     <!--Main content-->
-    <div class="main-content">
+    <div class="main-content page">
       <!--exploding pen-->
-      <div class="image-pen-container" id="pen">
-        <img src="./resources/images/pen.png"/>
-        <span style="color: white; background-color: black">Exploding Pen</span>
-      </div>
-      <!--cellular watch-->
-      <div class="image-watch-container" id="watch">
-        <img src="./resources/images/watch.png"/>
-        <span style="color: white; background-color: black">Cellular Watch</span>
-      </div>
-      <!--thermal glasses-->
-      <div class="image-glasses-container" id="glasses">
-        <img src="./resources/images/glasses.png"/>
-        <span style="color: white; background-color: black">Thermal Glasses</span>
-      </div>
+      <ul>
+        <li class="list"><img src="./resources/images/pen.png" alt="Exploding Pen"/>Exploding Pen</li>
+        <li class="list"><img src="./resources/images/watch.png" alt="Cellular Watch"/>Cellular Watch</li>
+        <li class="list"><img src="./resources/images/glasses.png" alt="Thermal Glasses"/>Thermal Glasses</li>
+      </ul>
       <!--contact and hours-->
-      <div class="location-time">
+      <div class="loctime">
         <div id="location">
           <p>Location</p>
           <p>-47.346436, 84.32354</p>
         </div>
-        <div>
+        <div class="time">
           <p>Hours</p>
           <p>0800 - 1800</p>
         </div>

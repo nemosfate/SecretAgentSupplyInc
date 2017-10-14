@@ -3,6 +3,12 @@ html {
   font-family: Helvetica, sans-serif;
 }
 
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
 .intro-container {
   color: white;
   background-color: black;
@@ -12,7 +18,7 @@ html {
 
 .intro {
   max-width: 960px;
-
+  margin-left: 10rem;
 }
 
 .intro img {
@@ -28,11 +34,46 @@ html {
   text-align: center;
 }
 
+.news {
+  background-image: url("../images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 25rem;
+  width: 100%;
+}
+
+.newmoto {
+  height: 10rem;
+  width: 20rem;
+  color: white;
+  background-color: black;
+  margin-left: 4rem;
+  margin-top: 10rem;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#newarr {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+#moto {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
 nav {
   display: flex;
   color: white ;
   background-color: firebrick;
   height: 2.5rem;
+  width: 100%;
   justify-content: center;
   align-content: space-between;
 }
@@ -40,4 +81,27 @@ nav {
 .navs {
   font-size: 1rem;
   margin: .75rem 3rem .75rem 2rem;
+}
+
+.main-content {
+  max-width: 960px;
+  height: 29rem;
+}
+
+ul {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.list {
+  width: 30%;
+  border: 4px solid black;
+  margin: 2rem, 0rem;
+}
+
+.list img {
+  width: 9rem;
+  height: 9rem;
 }
