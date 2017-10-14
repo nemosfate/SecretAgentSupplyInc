@@ -1,0 +1,43 @@
+html {
+  font-size: 18px;
+  font-family: Helvetica, sans-serif;
+}
+
+.intro-container {
+  color: white;
+  background-color: black;
+  height: 2.32rem;
+}
+
+
+.intro {
+  max-width: 960px;
+
+}
+
+.intro img {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: 1rem;
+  margin-left: .5rem;
+  align-content: center;
+}
+
+.logo {
+  font-size: 1rem;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  color: white ;
+  background-color: firebrick;
+  height: 2.5rem;
+  justify-content: center;
+  align-content: space-between;
+}
+
+.navs {
+  font-size: 1rem;
+  margin: .75rem 3rem .75rem 2rem;
+}
