@@ -116,17 +116,17 @@ nav {
   align-items: center;
 }
 
-.product-image img {
+img {
     height: 9rem;
-    width: 85%;
-    padding: 2rem 1rem 2rem 0.957rem;
+    width: 49%;
+    padding: 2rem 3rem;
     justify-content: center;
     align-items: center;
     border: 4px solid black;
 }
 
 .listtext {
-  width: 100%;
+  width: 89%;
   height: 2rem;
   color: white;
   background-color: black;
