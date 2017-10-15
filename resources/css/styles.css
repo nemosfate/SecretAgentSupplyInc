@@ -9,6 +9,7 @@ html {
   align-items: center;
 }
 
+/* company logo and name */
 .intro-container {
   color: white;
   background-color: black;
@@ -18,12 +19,12 @@ html {
 
 .intro {
   max-width: 960px;
-  margin-left: 10rem;
+  margin-left: 9.25rem;
 }
 
 .intro img {
   height: 1.5rem;
-  width: 1.5rem;
+  width: 1.8rem;
   margin-right: 1rem;
   margin-left: .5rem;
   align-content: center;
@@ -34,6 +35,7 @@ html {
   text-align: center;
 }
 
+/*landing & news*/
 .news {
   background-image: url("../images/moto.jpeg");
   background-repeat: no-repeat;
@@ -45,9 +47,10 @@ html {
 .newmoto {
   height: 10rem;
   width: 20rem;
+  padding: 1rem 3rem;
   color: white;
   background-color: black;
-  margin-left: 4rem;
+  margin-left: 10rem;
   margin-top: 10rem;
   text-align: center;
   display: flex;
@@ -57,9 +60,10 @@ html {
 }
 
 #newarr {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: bold;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 #moto {
@@ -68,6 +72,7 @@ html {
   margin-bottom: 2rem;
 }
 
+/*menu list*/
 nav {
   display: flex;
   color: white ;
@@ -75,33 +80,107 @@ nav {
   height: 2.5rem;
   width: 100%;
   justify-content: center;
-  align-content: space-between;
+  align-content: center;
 }
 
 .navs {
   font-size: 1rem;
-  margin: .75rem 3rem .75rem 2rem;
+  margin: .75rem 2rem .75rem 1rem;
 }
 
+/*products*/
 .main-content {
   max-width: 960px;
-  height: 29rem;
-}
-
-ul {
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: row wrap;
   justify-content: center;
-  align-content: center;
+  align-content: space-between;
+  margin-left: 9.25rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
-.list {
+#pen {
+  margin-left: 10px;
+}
+
+#watch, #glasses {
+  margin-left: 2rem;
+}
+.product-image {
+  height: 15rem;
   width: 30%;
-  border: 4px solid black;
-  margin: 2rem, 0rem;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
-.list img {
-  width: 9rem;
-  height: 9rem;
+.product-image img {
+    height: 9rem;
+    width: 85%;
+    padding: 2rem 1rem 2rem 0.957rem;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+}
+
+.listtext {
+  width: 100%;
+  height: 2rem;
+  color: white;
+  background-color: black;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* location & hours */
+.contact {
+  display: flex;
+  max-width: 960px;
+  height: 4rem;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-left: 10rem;
+}
+
+.block {
+  color: white;
+  background-color: black;
+  height: 3rem;
+  text-align: center;
+  margin-top: 3rem;
+  margin-right: 1rem;
+  margin-left: .15rem;
+}
+
+#location {
+
+  width: 35%;
+
+}
+
+#time {
+  width: 35%;
+  /*margin-left: 15.2rem*/
+}
+
+
+/*footer*/
+.footer {
+  color: white;
+  background-color: black;
+  height: 5rem;
+  width: 100%;
+  margin-top: 4rem;
+}
+
+#copyright {
+  text-align: left;
+  align-items: center;
+  padding-top: 2rem;
+  margin-left: 10rem;
 }

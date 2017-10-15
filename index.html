@@ -7,6 +7,7 @@
     <link href="./resources/css/styles.css" type="text/css" rel="stylesheet">
   </head>
   <body>
+
     <!--header and news-->
     <header>
       <div class="intro-container page">
@@ -22,6 +23,7 @@
           <p id="moto">SPORT BIKES AND MOTORCYCLES</p>
         </div>
       </div>
+
       <!--Menu-->
       <div class="page">
         <nav>
@@ -34,29 +36,40 @@
         </nav>
       </div>
     </header>
-    <!--Main content-->
+
+    <!--Products-->
     <div class="main-content page">
       <!--exploding pen-->
-      <ul>
-        <li class="list"><img src="./resources/images/pen.png" alt="Exploding Pen"/>Exploding Pen</li>
-        <li class="list"><img src="./resources/images/watch.png" alt="Cellular Watch"/>Cellular Watch</li>
-        <li class="list"><img src="./resources/images/glasses.png" alt="Thermal Glasses"/>Thermal Glasses</li>
-      </ul>
-      <!--contact and hours-->
-      <div class="loctime">
-        <div id="location">
-          <p>Location</p>
-          <p>-47.346436, 84.32354</p>
-        </div>
-        <div class="time">
-          <p>Hours</p>
-          <p>0800 - 1800</p>
-        </div>
+      <div id="pen" class="product-image">
+        <img src="./resources/images/pen.png" alt="Exploding Pen"/>
+        <span class="listtext">Exploding Pen</span>
+      </div>
+      <!--cell watch-->
+      <div id="watch" class="product-image">
+        <img src="./resources/images/watch.png" alt="Cellular Watch"/>
+        <span class="listtext">Cellular Watch</span>
+      </div>
+      <!--thermal glasses-->
+      <div id="glasses" class="product-image">
+        <img src="./resources/images/glasses.png" alt="Thermal Glasses"/>
+        <span class="listtext">Thermal Glasses</span>
+      </div>
+    </div>
+
+    <!--location and hours-->
+    <div class="contact">
+      <div id="location">
+        <p class="block">Location</p>
+        <p class="below">-47.346436, 84.32354</p>
+      </div>
+      <div id="time">
+        <p class="block">Hours</p>
+        <p class="below">0800 - 1800</p>
       </div>
     </div>
     <!--Footer-->
-    <footer>
-      <p>&copy; Secret Agent Supply Inc.</p>
+    <footer class="footer">
+      <p id="copyright">&copy; Secret Agent Supply Inc.</p>
     </footer>
   </body>
 </html>
