@@ -110,6 +110,10 @@ nav {
   margin: .75rem 2rem .75rem 1rem;
 }
 
+nav select {
+  display: none;
+}
+
 /*products*/
 .main-content {
   max-width: 960px;
@@ -240,4 +244,89 @@ nav {
           align-items: center;
   padding-top: 2rem;
   margin-left: 10rem;
+}
+
+/*Media Query*/
+@media screen and (max-device-width: 1024px) {
+  .intro {
+    margin-left: 0rem;
+  }
+  .newmoto {
+    margin-left: 0rem;
+  }
+  #navwidth {
+    display: none;
+  }
+  nav select {
+    display: inline-block;
+  }
+  #glasses {
+    display: none;
+  }
+  #pen {
+    margin-left: -5rem;
+  }
+  #watch {
+    margin-left: 7rem;
+    margin-right: -5rem;
+  }
+  #pen, #watch {
+    width: 47%;
+  }
+  #location, #time {
+    width: 35%;
+  }
+  .main-content {
+    margin-left: 0rem;
+  }
+  .listtext {
+    width: 81%;
+  }
+  .contact {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+}
+
+
+/*Media Query*/
+@media screen and (max-device-width: 1024px) {
+  .intro {
+    margin-left: 0rem;
+  }
+  .newmoto {
+    margin-left: 0rem;
+  }
+  #navwidth {
+    display: none;
+  }
+  nav select {
+    display: inline-block;
+  }
+  #glasses {
+    display: none;
+  }
+  #pen {
+    margin-left: -5rem;
+  }
+  #watch {
+    margin-left: 7rem;
+    margin-right: -5rem;
+  }
+  #pen, #watch {
+    width: 47%;
+  }
+  #location, #time {
+    width: 35%;
+  }
+  .main-content {
+    margin-left: 0rem;
+  }
+  .listtext {
+    width: 81%;
+  }
+  .contact {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
 }
