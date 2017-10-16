@@ -291,34 +291,42 @@ nav select {
 
 
 /*Media Query*/
-@media screen and (max-device-width: 1024px) {
+@media screen and (max-device-width: 470px) {
   .intro {
     margin-left: 0rem;
   }
+  .news {
+    height: 15rem;
+  }
   .newmoto {
     margin-left: 0rem;
+    height: 5rem;
   }
+  #newarr {
+    margin-bottom: 1rem;
+  }
+  #moto {}
   #navwidth {
     display: none;
   }
   nav select {
     display: inline-block;
   }
-  #glasses {
+  #glasses, #watch {
     display: none;
   }
   #pen {
     margin-left: -5rem;
-  }
-  #watch {
-    margin-left: 7rem;
-    margin-right: -5rem;
-  }
-  #pen, #watch {
-    width: 47%;
+    width: 90%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
   }
   #location, #time {
-    width: 35%;
+    width: 90%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
   }
   .main-content {
     margin-left: 0rem;
@@ -329,5 +337,8 @@ nav select {
   .contact {
     margin-left: -1rem;
     margin-right: -1rem;
+  }
+  #copyright {
+    text-align: center;
   }
 }
