@@ -304,8 +304,11 @@ nav select {
   }
   #newarr {
     margin-bottom: 1rem;
+    font-size: .77rem;
   }
-  #moto {}
+  #moto {
+    font-size: 1rem;
+  }
   #navwidth {
     display: none;
   }
