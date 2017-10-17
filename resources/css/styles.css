@@ -191,7 +191,7 @@ nav select {
 }
 
 /* location & hours */
-.contact {
+.tab-up-contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -205,6 +205,10 @@ nav select {
           align-items: center;
   text-align: center;
   margin-left: 10rem;
+}
+
+.mobile-contact {
+  display: none;
 }
 
 .block {
@@ -283,9 +287,12 @@ nav select {
   .listtext {
     width: 81%;
   }
-  .contact {
+  .tab-up-contact {
     margin-left: -1rem;
     margin-right: -1rem;
+  }
+  .mobile-contact {
+    display: none;
   }
 }
 
@@ -300,10 +307,11 @@ nav select {
   }
   .newmoto {
     margin-left: 0rem;
-    height: 5rem;
+    height: 3rem;
   }
   #newarr {
     margin-bottom: 1rem;
+    margin-top: 0rem;
     font-size: .77rem;
   }
   #moto {
@@ -328,6 +336,7 @@ nav select {
   #location, #time {
     width: 90%;
     display: flex;
+    flex-direction: column;
     align-content: center;
     justify-content: center;
   }
@@ -337,11 +346,13 @@ nav select {
   .listtext {
     width: 81%;
   }
-  .contact {
-    margin-left: -1rem;
-    margin-right: -1rem;
+  .mobile-contact {
+  }
+  .tab-up-contact {
+    display: none;
   }
   #copyright {
     text-align: center;
+    margin-left: 0rem;
   }
 }
