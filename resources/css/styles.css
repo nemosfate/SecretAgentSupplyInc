@@ -252,7 +252,8 @@ nav select {
 }
 
 /*Media Query*/
-@media screen and (max-device-width: 1024px) {
+@media screen and (max-device-width: 1024px) and (min-device-width: 471px)
+{
   .intro {
     margin-left: 0rem;
   }
@@ -327,7 +328,6 @@ nav select {
     display: none;
   }
   #pen {
-    margin-left: -5rem;
     width: 90%;
     display: flex;
     align-content: center;
@@ -347,6 +347,14 @@ nav select {
     width: 81%;
   }
   .mobile-contact {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-left: 1rem;
+  }
+  #time {
+    margin-top: -2rem;
+    text-align: center;
   }
   .tab-up-contact {
     display: none;
