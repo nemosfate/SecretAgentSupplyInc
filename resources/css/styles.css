@@ -295,9 +295,6 @@ nav select {
   .mobile-contact {
     display: none;
   }
-  select {
-    color: whitesmoke;
-    background-color: firebrick;
 }
 
 
@@ -367,9 +364,5 @@ nav select {
   #copyright {
     text-align: center;
     margin-left: 0rem;
-  }
-  select {
-    color: whitesmoke;
-    background-color: firebrick;
   }
 }
